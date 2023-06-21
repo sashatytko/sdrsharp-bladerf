@@ -42,7 +42,15 @@ namespace SDRSharp.BladeRF
 
         public bool IsBladeRF2()
         {
-            return _bladeRFDevice.BoardName.Equals("bladerf2");
+            try
+            {
+                return _bladeRFDevice.BoardName.Equals("bladerf2");
+            }
+            catch (Exception e)
+            {
+                return true;
+            }
+            
         }
 
         public unsafe bladerf_range* getAvailableSampleRates()

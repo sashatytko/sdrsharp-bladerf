@@ -162,6 +162,7 @@ namespace SDRSharp.BladeRF
                             {
                                 _initialized = false;
                                 deviceComboBox.SelectedIndex = i;
+                                InitSampleRates();
                                 _initialized = true;
                                 break;
                             }
