@@ -2,6 +2,32 @@
 
 bladeRF driver for SDR#
 
+![fm_band](https://github.com/sashatytko/sdrsharp-bladerf/assets/27360903/022c9275-1da0-479f-b9cb-762df6334ef7)
+
+
+Original repos:
+
+https://github.com/jmichelp/sdrsharp-bladerf
+
+https://github.com/Nuand/sdrsharp-bladerf
+
+# Changes in this fork
+
+1. Fixed frequency ranges for BladeRF2 (BladeRF xA4, BladeRF xA5, BladeRF xA9)
+2. Changed gain control mode to manual
+3. Fixed bug that crash SDR# when stop receiving
+4. Made generation of available sample rates according to BladeRF board version
+
+# Notes
+
+The latest SDRSharp version compatiable with BladeRF is 1.0.0.1732. I am unable to make work pure SDRSharp v1.0.0.1732 with BladeRF, that`s why you should download specific (patched) SDRSharp v1.0.0.1732 provided in release section. 
+
+In release libbladeRF v2.0.2 is in use, newer versions might break compatibility with BladeRF1 (BladeRF x40, Bladerf x115).
+
+Code refactor was not done because driver might be compatible with BladeRF1 (BladeRF x40, Bladerf x115) and I do not have hardware to test changes.
+
+All source code, precompiled .dll and SDRSharp v1.0.0.1732 available in release page.
+
 
 ## Installation
 
