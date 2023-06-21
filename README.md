@@ -26,7 +26,7 @@ In release libbladeRF v2.0.2 is in use, newer versions might break compatibility
 
 Code refactor was not done because driver might be compatible with BladeRF1 (BladeRF x40, Bladerf x115) and I do not have hardware to test changes.
 
-All source code, precompiled .dll and SDRSharp v1.0.0.1732 available in release page.
+All source code, precompiled .dll and SDRSharp v1.0.0.1732 available in [release page](https://github.com/sashatytko/sdrsharp-bladerf/releases/tag/release).
 
 
 ## Installation
@@ -35,7 +35,7 @@ All source code, precompiled .dll and SDRSharp v1.0.0.1732 available in release 
 
 #### Precompiled binaries
 
-1. Download the [official precompiled SDR# plugin binaries](https://nuand.com/downloads/bladeRF_SDRsharp.zip)
+1. Download the [precompiled SDR# plugin binaries (dll)](https://github.com/sashatytko/sdrsharp-bladerf/releases/tag/release)
 2. Unzip to SDR# directory
 3. Launch SDR#
 
